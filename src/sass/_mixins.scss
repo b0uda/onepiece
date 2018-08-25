@@ -1,0 +1,26 @@
+@mixin backImage($img ,
+	$grDir: to bottom ,
+	$opStart: 0 ,
+	$opEnd: 0 ,
+	$bgPos: center center){
+	background: linear-gradient($grDir , rgba(0,0,0,$opStart) , rgba(0,0,0,$opEnd) ) , url($img);
+	background-position: $bgPos;
+	background-repeat: no-repeat;
+	// background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}//imgbackgrounds
+
+
+@mixin clearfix {
+	&:before,
+	&:after {
+		content: '';
+		display: table;
+  } //before, after
+  &:after {
+  	clear: both;
+  } //after
+} //clearfix
