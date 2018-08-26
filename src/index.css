@@ -1,0 +1,1093 @@
+main {
+    padding-bottom: 0
+}
+
+.bgMap {
+    background: url("./images/map.png") 50% 0 repeat;
+    background-size: 462px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08)
+}
+
+.bigInfoArea {
+    padding: 32px 0 24px;
+    text-align: center
+}
+
+.bigInfoArea h2 {
+    margin-top: 13px;
+    padding: 0 10%
+}
+
+.bigInfoArea .img img {
+    max-width: 100%;
+    max-height: 443px
+}
+
+.bigInfoArea .info>div {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-top: 56.25%
+}
+
+.bigInfoArea .info>div iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important
+}
+
+.bigInfoArea .info>div.textArea {
+    width: auto;
+    padding-top: 0
+}
+
+.bigInfoArea .btnArea {
+    margin-top: 16px
+}
+
+.mainVisual {
+    background: #D9312B;
+    padding-top: 32px;
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+
+.mainVisual .swiper-container {
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all ease .3s;
+    -moz-transform: translate(5%, 5px);
+    -o-transform: translate(5%, 5px);
+    -ms-transform: translate(5%, 5px);
+    -webkit-transform: translate(5%, 5px);
+    transform: translate(5%, 5px);
+    overflow: visible
+}
+
+.mainVisual .swiper-container.on {
+    opacity: 1;
+    -moz-transform: translate(5%, 0);
+    -o-transform: translate(5%, 0);
+    -ms-transform: translate(5%, 0);
+    -webkit-transform: translate(5%, 0);
+    transform: translate(5%, 0)
+}
+
+.mainVisual .swiper-slide {
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background: #fff
+}
+
+.mainVisual .swiper-slide a {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden
+}
+
+.mainVisual .swiper-slide a .txt {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.5) 100%)
+}
+
+.mainVisual .swiper-slide a .txt p {
+    padding: 8.75vw 7.5vw 5vw;
+    text-align: left;
+    visibility: hidden
+}
+
+.mainVisual .swiper-slide a .img {
+    height: 0;
+    padding-top: 66.67%;
+    overflow: hidden
+}
+
+.mainVisual .swiper-slide a img {
+    width: 100%;
+    width: 100%;
+    transition: all ease .3s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.mainVisual .swiper-pagination.swiper-pagination-bullets {
+    clear: both;
+    position: relative;
+    text-align: center;
+    padding-top: 16px;
+    height: 40px;
+    font-size: 8px;
+    line-height: 1
+}
+
+.mainVisual .swiper-pagination.swiper-pagination-bullets:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+.mainVisual .swiper-pagination-bullet {
+    height: 8px;
+    background: rgba(0, 0, 0, 0.24);
+    opacity: 1;
+    font-size: 8px;
+    line-height: 1;
+    margin-right: 8px
+}
+
+.mainVisual .swiper-pagination-bullet:last-child {
+    margin-right: 0
+}
+
+.mainVisual .swiper-pagination-bullet-active {
+    background: #fff;
+    opacity: 1
+}
+
+.nextArea {
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    background: #C52C27
+}
+
+.nextArea .nextList {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex
+}
+
+.nextArea .nextList:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+.nextArea .nextList li {
+    width: calc(50% - 10px);
+    margin-right: 20px
+}
+
+.nextArea .nextList li:nth-child(even) {
+    margin-right: 0
+}
+
+.nextArea .nextList li a {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    color: #3D3D3D;
+    position: relative;
+    height: 100%
+}
+
+.nextArea .nextList li a:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+.nextArea .nextList li a>div {
+    position: relative
+}
+
+.nextArea .nextList li a>div .img {
+    overflow: hidden;
+    padding-top: 66.67%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.16)
+}
+
+.nextArea .nextList li a>div .img img {
+    transition: all ease .3s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    object-fit: cover;
+    object-position: center center;
+    font-family: 'object-fit: cover; object-position: center center;'
+}
+
+.nextArea .nextList li a>div .icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10vw;
+    height: 10vw
+}
+
+.nextArea .nextList li a>div .icon img {
+    vertical-align: bottom;
+    width: 10vw
+}
+
+.nextArea .nextList li a .titleArea {
+    flex: 1;
+    background-color: #D9312B;
+    color: #fff;
+    min-height: 87px;
+    font-weight: bold;
+    letter-spacing: 0.09em;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 16px
+}
+
+.nextArea .nextList li a .titleArea>div {
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg_next.svg") 50% 50% no-repeat
+}
+
+.nextArea .nextList li a .titleArea>div .sub {
+    font-weight: normal
+}
+
+.nextArea .nextList li a .titleArea>div .title {
+    margin-top: 8px
+}
+
+#news {
+    padding-bottom: 0
+}
+
+.btnMore {
+    text-align: center;
+    margin-top: 12.5vw
+}
+
+.wrap {
+    padding: 64px 0
+}
+
+.wrap:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+#update {
+    padding-bottom: 0;
+    margin-top: 24px
+}
+
+#update .updateList li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08)
+}
+
+#update .updateList li a {
+    display: block;
+    padding: 16px 0;
+    color: txtColor
+}
+
+#update .updateList li a .date {
+    color: #9DA0A3
+}
+
+#update .updateList li a .title {
+    margin-top: 8px;
+    color: #3D3D3D
+}
+
+#update .btnAll {
+    margin-top: 8.75vw;
+    text-align: center
+}
+
+.twitterBoxWrap {
+    margin-top: 24px;
+    max-width: 302px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.twitterBoxWrap:first-of-type {
+    margin-top: 0
+}
+
+.twitterBoxWrap h2 {
+    text-align: left
+}
+
+.twitterBoxWrap .twitterBox {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    height: 324px;
+    max-height: 324px;
+    overflow-y: scroll;
+    margin-top: 16px
+}
+
+.twitterBoxWrap .btnFollow {
+    display: block;
+    margin-top: 15px
+}
+
+.twitterBoxWrap .btnFollow .btn {
+    width: 100%;
+    display: block;
+    max-width: none
+}
+
+.twitterBoxWrap iframe {
+    width: 100% !important;
+    max-width: 100% !important
+}
+
+#recommend .reccomendList {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5%;
+    margin-top: 24px
+}
+
+#recommend .reccomendList:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+#recommend .reccomendList li {
+    margin-left: 5%;
+    width: 45%
+}
+
+#recommend .reccomendList li:nth-child(n+3) {
+    margin-top: 5vw
+}
+
+#recommend .reccomendList li a img {
+    width: 100%
+}
+
+.itemListBlock {
+    display: none;
+    opacity: 0
+}
+
+.itemListBlock h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 32px
+}
+
+.itemListBlock.active {
+    display: block;
+    opacity: 1
+}
+
+.itemList.popular li {
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 0
+}
+
+.itemList.popular li .copy {
+    margin-top: 10px
+}
+
+.itemList.popular li:first-child {
+    margin-top: 0
+}
+
+.itemList.popular li a {
+    position: relative
+}
+
+.itemList.popular li a .title {
+    font-weight: 500
+}
+
+.itemList.popular li a .copy {
+    display: none
+}
+
+.itemList.popular li a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: 64px;
+    height: 64px
+}
+
+.itemList.popular li:first-child a::after {
+    background: url("/assets/img/common/card_no1.svg") 0 0 no-repeat;
+    background-size: 64px 64px
+}
+
+.itemList.popular li:nth-child(2) a::after {
+    background: url("/assets/img/common/card_no2.svg") 0 0 no-repeat;
+    background-size: 100%
+}
+
+.itemList.popular li:nth-child(3) a::after {
+    background: url("/assets/img/common/card_no3.svg") 0 0 no-repeat;
+    background-size: 100%
+}
+
+.itemList.popular li:nth-child(4) a::after {
+    background: url("/assets/img/common/card_no4.svg") 0 0 no-repeat;
+    background-size: 100%
+}
+
+.itemList.popular li:nth-child(5) a::after {
+    background: url("/assets/img/common/card_no5.svg") 0 0 no-repeat;
+    background-size: 100%
+}
+
+.exInfoArea {
+    padding: 40px 0 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    width: 100%;
+    overflow: hidden
+}
+
+.exInfoArea#exInfo01 {
+    background: #2B82D9
+}
+
+.exInfoArea#exInfo02 {
+    background: url("../img/bg_exinfo02.jpg") 50% 50% no-repeat;
+    background-size: cover
+}
+
+.exInfoArea * {
+    color: #fff !important
+}
+
+.exInfoArea * svg path {
+    fill: #fff !important
+}
+
+.exInfoArea h2 {
+    margin-top: 12px;
+    text-align: left
+}
+
+.exInfoArea .swiper-container .swiper-wrapper {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center
+}
+
+.exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item {
+    width: calc( 50% - 8px);
+    margin-right: 16px;
+    opacity: 0
+}
+
+.exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item:last-child {
+    margin-right: 0
+}
+
+.exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a {
+    color: #3D3D3D;
+    display: block;
+    width: 100%
+}
+
+.exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a .img {
+    overflow: hidden;
+    position: relative;
+    padding-top: 66.67%;
+    background-color: rgba(0, 0, 0, 0.16)
+}
+
+.exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a .img img {
+    display: block;
+    transition: all ease .3s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    object-fit: cover;
+    object-position: center center;
+    font-family: 'object-fit: cover; object-position: center center;'
+}
+
+.exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a .title {
+    transition: all ease .3s;
+    margin-top: 13px
+}
+
+.exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a .info {
+    margin-top: 10px
+}
+
+.exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a .info:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+.exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a .info .date {
+    float: left;
+    color: #9DA0A3;
+    line-height: 1;
+    transition: all ease .3s
+}
+
+.exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a .info .viewNum {
+    float: right;
+    line-height: 1
+}
+
+.exInfoArea .swiper-container .swiper-wrapper.swiperOn {
+    justify-content: flex-start;
+    padding-left: 5%
+}
+
+.exInfoArea .exInfo-swiper-pagination {
+    text-align: center;
+    margin-top: 32px
+}
+
+.exInfoArea .swiper-pagination.swiper-pagination-bullets {
+    clear: both;
+    position: relative;
+    text-align: center;
+    padding-top: 16px;
+    height: 40px;
+    font-size: 8px;
+    line-height: 1
+}
+
+.exInfoArea .swiper-pagination.swiper-pagination-bullets:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+.exInfoArea .swiper-pagination-bullet {
+    height: 8px;
+    background: rgba(0, 0, 0, 0.24);
+    opacity: 1;
+    font-size: 8px;
+    line-height: 1;
+    margin-right: 8px
+}
+
+.exInfoArea .swiper-pagination-bullet:last-child {
+    margin-right: 0
+}
+
+.exInfoArea .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.exInfoArea .swiper-pagination-bullet.on {
+    background: #fff;
+    opacity: 1
+}
+
+@media (min-width: 640px) {
+    main {
+        padding-bottom: 0
+    }
+    .bigInfoArea .img img {
+        max-width: 100%;
+        max-height: 443px
+    }
+    .bigInfoArea .textArea {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center
+    }
+    .bigInfoArea .textArea h2 {
+        padding: 0;
+        margin-right: auto;
+        font-weight: 500
+    }
+    .mainVisual .swiper-container {
+        -moz-transform: translateX(50%) translateX(-264px) translateY(5px);
+        -o-transform: translateX(50%) translateX(-264px) translateY(5px);
+        -ms-transform: translateX(50%) translateX(-264px) translateY(5px);
+        -webkit-transform: translateX(50%) translateX(-264px) translateY(5px);
+        transform: translateX(50%) translateX(-264px) translateY(5px)
+    }
+    .mainVisual .swiper-container.on {
+        -moz-transform: translateX(50%) translateX(-264px) translateY(0);
+        -o-transform: translateX(50%) translateX(-264px) translateY(0);
+        -ms-transform: translateX(50%) translateX(-264px) translateY(0);
+        -webkit-transform: translateX(50%) translateX(-264px) translateY(0);
+        transform: translateX(50%) translateX(-264px) translateY(0)
+    }
+    .mainVisual .swiper-slide {
+        width: 528px
+    }
+    .mainVisual .swiper-slide a .txt {
+        width: 100%
+    }
+    .mainVisual .swiper-slide a .txt p {
+        padding: 6.5625vw 3.75vw 3.125vw
+    }
+    .mainVisual .swiper-slide a img {
+        width: 100%
+    }
+    .nextArea .nextList li {
+        width: calc(50% - 12px)
+    }
+    .nextArea .nextList li a>div .icon {
+        width: 32px;
+        height: 32px
+    }
+    .nextArea .nextList li a>div .icon img {
+        width: 32px
+    }
+    .btnMore {
+        text-align: center;
+        margin-top: 40px
+    }
+    .wrap:after {
+        content: " ";
+        display: block;
+        clear: both
+    }
+    #update {
+        margin-top: 40px
+    }
+    #update h2 {
+        display: block
+    }
+    #update:after {
+        content: " ";
+        display: block;
+        clear: both
+    }
+    #update .btnAll {
+        margin-top: 24px;
+        text-align: center
+    }
+    .twitterArea {
+        padding: 0 24px;
+        text-align: center
+    }
+    .twitterArea:after {
+        content: " ";
+        display: block;
+        clear: both
+    }
+    .twitterBoxWrap {
+        display: inline-block;
+        width: calc( 50% - 16px);
+        margin-top: 0;
+        margin-right: 16px;
+        max-height: 304px
+    }
+    .twitterBoxWrap:first-child {
+        margin-top: 0
+    }
+    .twitterBoxWrap:last-child {
+        margin-right: 0
+    }
+    .twitterBoxWrap iframe {
+        width: 304px !important;
+        max-width: 100% !important
+    }
+    #recommend .reccomendList {
+        margin-left: -2.3%;
+        margin-top: 24px
+    }
+    #recommend .reccomendList:after {
+        content: " ";
+        display: block;
+        clear: both
+    }
+    #recommend .reccomendList li {
+        width: 31%;
+        margin-left: 2.3%
+    }
+    #recommend .reccomendList li:nth-child(n+3) {
+        margin-top: 0
+    }
+    #recommend .reccomendList li:nth-child(n+4) {
+        margin-top: 2.5vw
+    }
+    #recommend .reccomendList li a img {
+        width: 100%
+    }
+    .exInfoArea .titleArea {
+        margin-left: auto;
+        margin-right: auto
+    }
+    .exInfoArea .titleArea h2 {
+        text-align: center
+    }
+    .exInfoArea .swiper-container .swiper-wrapper {
+        margin-top: 32px
+    }
+    .exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item {
+        width: calc( 25% - 8px)
+    }
+    .exInfoArea .swiper-container .swiper-wrapper.swiperOn {
+        padding-left: 3.75%
+    }
+}
+
+@media (min-width: 960px) {
+    .tabletOnly {
+        display: inline
+    }
+    main {
+        padding-bottom: 0
+    }
+    .mainVisual {
+        height: 563px
+    }
+    .mainVisual .swiper-container {
+        -moz-transform: translateX(50%) translateX(-368px) translateY(5px);
+        -o-transform: translateX(50%) translateX(-368px) translateY(5px);
+        -ms-transform: translateX(50%) translateX(-368px) translateY(5px);
+        -webkit-transform: translateX(50%) translateX(-368px) translateY(5px);
+        transform: translateX(50%) translateX(-368px) translateY(5px)
+    }
+    .mainVisual .swiper-container.on {
+        -moz-transform: translateX(50%) translateX(-368px) translateY(0);
+        -o-transform: translateX(50%) translateX(-368px) translateY(0);
+        -ms-transform: translateX(50%) translateX(-368px) translateY(0);
+        -webkit-transform: translateX(50%) translateX(-368px) translateY(0);
+        transform: translateX(50%) translateX(-368px) translateY(0)
+    }
+    .mainVisual .swiper-slide {
+        width: 736px
+    }
+    .mainVisual .swiper-slide a .txt {
+        z-index: 2
+    }
+    .mainVisual .swiper-slide a .txt p {
+        padding: 42px 24px 20px
+    }
+    .mainVisual .swiper-slide a .img {
+        width: 100%;
+        overflow: hidden
+    }
+    .mainVisual .swiper-slide a .img img {
+        z-index: 1;
+        width: 100%;
+        transition: all ease .3s
+    }
+    .mainVisual .swiper-slide a:hover {
+        opacity: 1;
+        background-size: 110%
+    }
+    .mainVisual .swiper-slide a:hover .img img {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+    .nextArea .nextList {
+        text-align: center;
+        max-width: 888px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .nextArea .nextList li {
+        width: calc(50% - 12px)
+    }
+    .nextArea .nextList li:nth-child(odd) {
+        margin-right: 24px
+    }
+    .nextArea .nextList li:nth-child(even) {
+        float: none
+    }
+    .nextArea .nextList li a {
+        flex-direction: row-reverse
+    }
+    .nextArea .nextList li a>div {
+        width: 50%;
+        height: 100%
+    }
+    .nextArea .nextList li a .titleArea {
+        width: 50%;
+        height: auto
+    }
+    .nextArea .nextList li a .titleArea span {
+        text-align: left
+    }
+    .nextArea .nextList li a:hover {
+        opacity: 1;
+        color: #D9312B
+    }
+    .nextArea .nextList li a:hover .img img {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+    .btnMore {
+        text-align: center;
+        margin-top: 40px
+    }
+    .itemList.popular li {
+        float: left
+    }
+    .itemList.popular li:nth-child(1) {
+        width: 100%
+    }
+    .itemList.popular li:nth-child(1) a {
+        position: relative
+    }
+    .itemList.popular li:nth-child(1) a .img {
+        width: 57.5%;
+        height: 340.39333px;
+        padding: 0;
+        display: block;
+        float: left;
+        margin-right: 24px
+    }
+    .itemList.popular li:nth-child(1) a .copy {
+        display: block;
+        margin-top: 20px
+    }
+    .itemList.popular li:nth-child(1) a .info {
+        width: auto
+    }
+    .itemList.popular li:nth-child(even) {
+        margin-right: 24px
+    }
+    .itemList.popular li:nth-child(n+2) {
+        width: calc(50% - 12px);
+        margin-top: 24px
+    }
+    .itemList.popular li:nth-child(n+2) a {
+        position: relative
+    }
+    .itemList.popular li:nth-child(n+2) a .img {
+        width: 100%;
+        display: block;
+        margin-right: 24px
+    }
+    .itemList.popular li:nth-child(n+2) a .title {
+        margin-top: 20px
+    }
+    .itemList.popular li:nth-child(n+2) a .copy {
+        display: block
+    }
+    .itemList.popular li:nth-child(9) {
+        float: right
+    }
+    .twitterArea {
+        padding: 0;
+        float: right;
+        margin-left: 24px
+    }
+    .twitterArea .twitterBoxWrap {
+        width: 214px
+    }
+    #update {
+        width: 420px;
+        margin-top: 0
+    }
+    #update .updateList {
+        margin-top: 0
+    }
+    #update .updateList li a {
+        display: table;
+        padding: 16px 0
+    }
+    #update .updateList li a .date {
+        color: #9DA0A3;
+        display: table-cell;
+        padding-right: 3.75vw
+    }
+    #update .updateList li a .title {
+        margin-top: 0;
+        display: table-cell
+    }
+    #update .btnAll {
+        margin-top: 24px;
+        text-align: center
+    }
+    #update .btnAll a {
+        color: #3D3D3D;
+        width: 100%;
+        max-width: 100%;
+        width: 288px
+    }
+    #recommend .reccomendList {
+        margin-left: -24px;
+        margin-top: 24px
+    }
+    #recommend .reccomendList:after {
+        content: " ";
+        display: block;
+        clear: both
+    }
+    #recommend .reccomendList li {
+        width: 204px;
+        margin-left: 24px
+    }
+    #recommend .reccomendList li:nth-child(n+4) {
+        margin-top: 0
+    }
+    #recommend .reccomendList li:nth-child(n+5) {
+        margin-top: 24px
+    }
+    #recommend .reccomendList li a {
+        display: block;
+        width: 100%;
+        overflow: hidden
+    }
+    #recommend .reccomendList li a:after {
+        content: " ";
+        display: block;
+        clear: both
+    }
+    #recommend .reccomendList li a img {
+        transition: all ease .3s;
+        width: 100%
+    }
+    #recommend .reccomendList li a:hover {
+        opacity: 1
+    }
+    #recommend .reccomendList li a:hover img {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+    .exInfoArea {
+        padding: 40px 0 50px;
+        overflow: hidden
+    }
+    .exInfoArea .swiper-container {
+        width: 888px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: visible
+    }
+    .exInfoArea .swiper-container .swiper-wrapper {
+        margin-top: 32px;
+        width: 100%;
+        padding: 0
+    }
+    .exInfoArea .swiper-container .swiper-wrapper:after {
+        content: " ";
+        display: block;
+        clear: both
+    }
+    .exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item {
+        width: 204px;
+        margin-right: 24px;
+        float: left
+    }
+    .exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item:last-child {
+        padding-right: 0
+    }
+    .exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a:hover {
+        opacity: 1
+    }
+    .exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a:hover .img img {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+    .exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a:hover .title {
+        color: #D9312B
+    }
+    .exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item a:hover .date {
+        color: rgba(217, 49, 43, 0.63)
+    }
+    .exInfoArea .swiper-container .swiper-wrapper.swiperOn {
+        padding-left: 0
+    }
+}
+
+@media (min-width: 1280px) {
+    .tabletOnly {
+        display: none
+    }
+    .itemList.popular li:nth-child(1) a .img {
+        height: 450.79333px
+    }
+    #update {
+        width: 598px
+    }
+    #recommend .reccomendList {
+        margin-top: 24px
+    }
+    #recommend .reccomendList li {
+        width: 276px
+    }
+    .twitterArea .twitterBoxWrap {
+        width: 264px
+    }
+    .exInfoArea .swiper-container {
+        width: 1176px
+    }
+    .exInfoArea .swiper-container .swiper-wrapper .swiper-slide.item {
+        width: 276px
+    }
+}
