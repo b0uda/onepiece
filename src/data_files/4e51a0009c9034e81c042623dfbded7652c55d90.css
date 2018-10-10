@@ -1,0 +1,85 @@
+/* /skin/3934/css */
+body {
+    background-color: #1f9df8;
+}
+.gutter a {
+    position: relative;
+    overflow: hidden;
+}
+.gutter .l, .gutter .r {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+.top.gutter a {
+    margin: auto;
+    background: url(/assets/91a6e6c3b7910bb6aaa19e952c2e41636750e4d6.jpg) no-repeat center bottom;
+    height: 200px;
+    max-width: 1920px;
+}
+.top.gutter .l {
+    left: 0;
+    box-shadow: 0px 0px 15px 19px #1f9df8;
+}
+.top.gutter.full-image .l {
+    display: none;
+}
+.top.gutter .r {
+    right: 0;
+    box-shadow: 0px 0px 15px 19px #1f9df8;
+}
+.top.gutter.full-image .r {
+    display: none;
+}
+@media (min-width: 615px) { .left.gutter a {
+    margin: auto;
+    background: url(/assets/ed096ecde8433d68999c5deb6a44aa4b7d84d5ef.jpg) no-repeat center center;
+    min-width: 0px;
+    max-width: 603px;
+    height: 1200px;
+} }
+@media (min-width: 615px) { .left.gutter {
+    min-width: 180px;
+} }
+@media (min-width: 615px) { .left.gutter .l {
+    left: 0;
+    box-shadow: 0px 0px 15px 19px #1f9df8;
+} }
+@media (min-width: 615px) { .left.gutter.full-image .l {
+    display: none;
+} }
+@media (min-width: 615px) { .left.gutter .r {
+    right: 0;
+    box-shadow: 0px 0px 15px 19px #1f9df8;
+} }
+@media (min-width: 615px) { .left.gutter.full-image .r {
+    display: none;
+} }
+@media (min-width: 615px) { .right.gutter a {
+    margin: auto;
+    background: url(/assets/9df8a629302fa8b51be4533517b96c9936af9bca.jpg) no-repeat center center;
+    min-width: 0px;
+    max-width: 602px;
+    height: 1200px;
+} }
+@media (min-width: 615px) { .right.gutter {
+    min-width: 180px;
+} }
+@media (min-width: 615px) { .right.gutter .l {
+    left: 0;
+    box-shadow: 0px 0px 15px 19px #1f9df8;
+} }
+@media (min-width: 615px) { .right.gutter.full-image .l {
+    display: none;
+} }
+@media (min-width: 615px) { .right.gutter .r {
+    right: 0;
+    box-shadow: 0px 0px 15px 19px #1f9df8;
+} }
+@media (min-width: 615px) { .right.gutter.full-image .r {
+    display: none;
+} }
+@media (max-width: 1024px) {
+    .top.gutter a {
+        background: url(/assets/a0484cef3541a57097dc00ef7103ea5a0dc64e3e.jpg) no-repeat center center;
+}

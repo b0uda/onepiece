@@ -24,12 +24,16 @@ module.exports = {
 	module:{
 		rules:[
 		{
+			test: /\.php$/,
+			use: 'php-loader'
+		  },
+		{
 			test: /\.js$/,
 			use: [
 			{
 				loader: 'babel-loader' ,
 				options: {
-					presets: ['es2015']
+					presets: ['env']
 				}
 			}
 			]
@@ -40,7 +44,7 @@ module.exports = {
 				use: ['css-loader']
 			})
 
-		},
+		},		  
 		{
 			test: /\.(scss)$/,
 			use: extractplugin.extract(
@@ -92,7 +96,7 @@ module.exports = {
 			use: ['html-loader']
 		} ,
 		{
-			test: /\.(jpg|png|JPG|svg|gif)$/ ,
+			test: /\.(jpg|png|jpeg|JPG|svg|gif)$/ ,
 			use: [
 			{
 				loader: 'file-loader' ,
@@ -141,7 +145,7 @@ module.exports = {
             	filename: 'index.html',
             	template: 'src/index.html',
             	chunks: ['app' , 'index']
-            }),
+			}),
             new CleanWebpackPlugin([ 'dist' ]) ,
             new webpack.ProvidePlugin({
             	$: 'jquery' ,

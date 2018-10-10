@@ -1,0 +1,3 @@
+function ANNpostMessage(msg){var w=window;while(w.parent&&w.parent!=w){w=w.parent;w.postMessage(msg,"*");}}
+if(!window.ann_ad)window.ann_ad={};if(!ann_ad.ad_type){var w=ann_ad.width=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;var h=ann_ad.height=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;if(w>400&&h<150)ann_ad.ad_type='BANNER';if(w<400&&h>150)ann_ad.ad_type='RECT';}
+ANNpostMessage({ad_fallback_for:ann_ad});

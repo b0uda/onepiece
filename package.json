@@ -13,21 +13,24 @@
     "@angular/cli": "^1.7.3",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.5",
     "html-loader": "^0.5.1",
+    "html-minify": "^0.3.2",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.5.3",
     "postcss": "^6.0.16",
     "postcss-loader": "^2.0.10",
     "raw-loader": "^0.5.1",
     "sass-loader": "^6.0.6",
+    "uglifycss": "0.0.29",
     "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.3"
+    "webpack-dev-server": "^2.9.3",
+    "webpack-php-loader": "^0.5.0"
   },
   "dependencies": {
     "breakpoint": "^0.1.6",
@@ -35,8 +38,10 @@
     "compass-mixins": "^0.12.10",
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
+    "php-loader": "^0.2.0",
     "popper.js": "^1.12.9",
     "precss": "^2.0.0",
+    "request": "^2.88.0",
     "susy": "^2"
   }
 }

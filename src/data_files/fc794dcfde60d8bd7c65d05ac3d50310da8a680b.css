@@ -1,0 +1,273 @@
+.php-css{ margin: 10px 0px 0px 0px; }
+.php-css .maincontent .text-zone > .meat > p:first-child { margin-top: 0; }
+.php-css .maincontent .text-zone > .meat + hr { clear: both; }
+.php-css a:link { color: #038; }
+.php-css a:visited { color: #538; }
+.php-css a:hover { color: #06c; text-decoration: underline !important; }
+.php-css a img { border: 0px; }
+.php-css .hide { display: none; }
+.php-css .show { display: block; }
+.php-css .fleft { float: left; }
+.php-css .fright { float: right; clear: right; }
+.php-css .hasfloat { overflow: hidden; }
+.php-css .cleft { clear: left; }
+.php-css .cright { clear: right; }
+.php-css .center { text-align: center; }
+.php-css .right { text-align: right; }
+.php-css .vmiddle { vertical-align: middle; }
+.php-css .white { color: #fff; background: transparent; }
+.php-css .pointer { cursor: pointer; }
+.php-css .readable { max-width: 700px; font-size: 14px; line-height: 1.3em; }
+.php-css .selectbox { text-align: center; margin: 15px; }
+.php-css .selectbox a, .php-css .selectbox .selected a:link, .php-css .selectbox .selected a:visited { border: 1px solid #ddd; color: #666; font-weight: bold; margin: 0px 10px; padding: 5px 10px 5px 10px; text-decoration: none; }
+.php-css .selectbox a:link, .php-css .selectbox a:visited { color: #aaa; font-weight: normal; }
+.php-css .selectbox a:hover { border: 1px solid #444; color: #444; }
+.php-css h1, .php-css h2, .php-css h3, .php-css h4, .php-css h5, .php-css h6 { background: transparent; color: #358ab0; font-family: "Lucida Unicode", "Lucida Grande", Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.2em; }
+.php-css h1 { font-size: 22px; margin: 0; }
+.php-css h2 { font-size: 23px; margin: 24px 0 10px 0; }
+.php-css h3 { font-size: 18px; margin: 21px 0 8px 0; }
+.php-css h4 { font-size: 17px; margin: 18px 0 6px 0; }
+.php-css h5 { font-size: 15px; margin: 15px 0 4px 0; }
+.php-css h6 { font-size: 13px; margin: 12px 0 2px 0; }
+.php-css h1 a, .php-css h2 a, .php-css h3 a, .php-css h4 a, .php-css h5 a, .php-css h6 a { color: #358ab0 !important; }
+.php-css h1#page_header { margin: 10px 0 0 0; }
+.php-css h1#page_header .sub-title { font-size: 16px; font-weight: bold; }
+.php-css .maincontent.interest #page-title, .php-css .maincontent.interest #page-title h1 { color: #a72d7c; border-color: #a72d7c; }
+.php-css #page-title { color: #358ab0; border-bottom: 2px solid #358ab0; margin-bottom: 10px; padding-bottom: 3px; }
+.php-css #content-zone { min-height: 300px; }
+.php-css #maincontent .forumline th { background-color: #021b73; background-image: none; color: white; }
+.php-css .clearing { clear: both; height: 1px; margin-bottom: -1px; overflow: hidden; }
+.php-css .adblocked { background-color: red; font-size: 16px; line-height: 1.4em; color: yellow; position: absolute; }
+.php-css .adblocked span { display: block; text-align: center; margin-top: 10px; }
+.php-css .adblocked span a { color: yellow !important; }
+.php-css #content-zone TABLE.layout TD.horizontal { color: white; font-weight: bold; line-height: 30px; }
+.php-css #content-zone TABLE.layout TR.top-side TD.horizontal { line-height: 16px; }
+.php-css TABLE.fixed.layout { table-layout: fixed; width: 100%; }
+.php-css TABLE.layout TD.vertical { width: 35px; background-image: url(/assets/253717e319fd624907d7eaa4f8a789ee37c79ae2.gif); }
+.php-css TABLE.layout TD.vertical DIV { width: 35px; }
+.php-css TABLE.layout TD.horizontal { height: 35px; background-image: url(/assets/aab83b13fa3cf12ec3972f59b47fcf05d21bdf48.gif); }
+.php-css TABLE.layout TD.horizontal DIV { height: 35px; }
+.php-css TABLE.layout TD DIV.overflow-down { margin-bottom: -35px; }
+.php-css TABLE.layout TD DIV.overflow-up { margin-top: -35px; }
+.php-css TABLE.layout TR.top-side TD, .php-css TABLE.layout TR.top-side TD DIV { height: 28px; background-position: 0px -7px; }
+.php-css TABLE.layout TR.bottom-side TD, .php-css TABLE.layout TR.bottom-side TD DIV { height: 29px; }
+.php-css TABLE.layout TD.left-side, .php-css TABLE.layout TD.left-side DIV { width: 28px; background-position: -7px 0px; }
+.php-css TABLE.layout TD.right-side, .php-css TABLE.layout TD.right-side DIV { width: 30px; }
+.php-css TABLE.layout TR.top-side TD.left-side, .php-css TABLE.layout TR.top-side TD.left-side DIV { background-position: -7px -7px; }
+.php-css TABLE.layout DIV.top-left { background-image: url(/assets/24f3ca407faed9f355b798e96c5314173cacab8f.gif); }
+.php-css TABLE.layout DIV.top-right { background-image: url(/assets/b639d53280365b1a5653c9ccc4f57272c6f7cce8.gif); }
+.php-css TABLE.layout DIV.bottom-left { background-image: url(/assets/a477ef58de66f1ec3089fda6029e8b2fb2f21ac3.gif); }
+.php-css TABLE.layout DIV.bottom-right { background-image: url(/assets/a4e1adb70ee2c81dfe524e0ad62b46a6cffec54c.gif); }
+.php-css TABLE.layout DIV.downward-T { background-image: url(/assets/0bc0af15eb4c74979f0b6039eab4a40c685c839f.gif); }
+.php-css TABLE.layout DIV.rightward-T { background-image: url(/assets/7ffc7630f7a1ef175e8b5fd6326a68c1d9a92ebc.gif); }
+.php-css TABLE.layout DIV.leftward-T { background-image: url(/assets/48112da7a988e1e98786187ed1341afe4dc80de9.gif); }
+.php-css TABLE.layout DIV.upward-T { background-image: url(/assets/9949ab2c73f98b91aeac7a1c5b4cb298c30a9c13.gif); }
+.php-css TABLE.layout TD.bottom-cap { vertical-align: bottom; }
+.php-css TABLE.layout TD.top-cap { vertical-align: top; }
+.php-css TABLE.layout TD.left-cap DIV { float: left; }
+.php-css TABLE.layout TD.right-cap DIV { float: right; }
+.php-css TABLE.layout TD.bottom-cap DIV { background-image: url(/assets/4cab5da5cd5fab0d1d9664e4b5e426bee03b1e78.gif); height: 14px; }
+.php-css TABLE.layout TD.top-cap DIV { background-image: url(/assets/a6732b03fe85573d14e4a4a63b34107bd27fdff6.gif); height: 13px; }
+.php-css TABLE.layout TD.left-cap DIV { background-image: url(/assets/9166c48101dc74cc0083fd00eeb47b279f4db3c3.gif); width: 13px; }
+.php-css TABLE.layout TD.right-cap DIV { background-image: url(/assets/33e89896ff73d72dd6d2be832273c939b1685a7a.gif); width: 14px; }
+.php-css cite.e { font-style: inherit; }
+.php-css cite.anime { font-style: italic; }
+.php-css cite.e a i { font-style: normal; }
+.php-css cite.e a:link, .php-css A.ENCYC:link { color: #008000 !important; text-decoration: none; }
+.php-css cite.e a:visited, .php-css A.ENCYC:visited { color: #005000 !important; text-decoration: none; }
+.php-css cite.unconfirmed { background-color: #ddd; }
+.php-css cite.confirmed { border-bottom: 1px dashed #008000; }
+.php-css kbd { border: 1px dotted #09f; }
+.php-css kbd var { text-decoration: underline; }
+.php-css kbd .optional { font-style: normal; }
+.php-css kbd .optional:before { content: "["; color: #09f; }
+.php-css kbd .optional:after { content: "]"; color: #09f; }
+.php-css samp { font-size: 90%; color: blue; }
+.php-css div.loading { background-color: #fff; border: solid 1px #080; color: #080; -moz-opacity: 0.75; opacity: 0.75; position: absolute; white-space: nowrap; margin: 9px; padding: 2px 5px; }
+.php-css div.loading * { -moz-opacity: 1; opacity: 1; }
+.php-css span.greenlink-icon { position: absolute; width: 9px; }
+.php-css span.greenlink-icon > img { position: absolute; margin-top: -2px; margin-left: -4px; }
+.php-css span.greenlink-menu { display: block; background-color: #fff; border: solid 1px black; color: black; font: normal 12px/1.5em Arial,Helvetica,sans-serif; text-align: left; position: absolute; white-space: nowrap; margin-top: 1px; padding-right: 12px; z-index: 1; }
+.php-css span.greenlink-menu input { margin: 1px; vertical-align: text-top; }
+.php-css span.greenlink-menu .close { display: block; float: right; background: url("/img/tree_L_open.gif") bottom left; width: 11px; height: 13px; margin-left: 3px; position: relative; left: 12px; }
+.php-css .greenlink-menu .choice.default cite { font-weight: bold; }
+.php-css .greenlink-menu .choice .topic-or-not { display: none; margin-left: 15px; font-size: 90%; line-height: 1.1em; }
+.php-css .greenlink-menu .choice.confirmed .topic-or-not { display: block; }
+.php-css .greenlink-menu .show-match-type { display: block; position: absolute; bottom: -1px; right: -1px; cursor: context-menu; border: 1px solid black; font-size: 9px; line-height: 1.0em; padding: 1px 1px 0px 1px; }
+.php-css .greenlink-menu .match-type { display: block; margin-left: 15px; }
+.php-css div.greenlink-sandbox { border: 1px solid #080; padding: 4px 5px 2px 5px; }
+.php-css .greenlink-sandbox + .greenlink-sandbox { border-top-width: 0px; }
+.php-css A.discreet { color: inherit; text-decoration: none; }
+.php-css A.discreet:hover { color: #06c; text-decoration: underline; }
+.php-css A.de-emphasized, .php-css .de-emphasized, .php-css .de-emphasized A { color: #777; }
+.php-css UL.article-list H3 { margin: 10px 0 0 0px; }
+.php-css UL.article-list H4 { margin: 3px 0 0 15px; }
+.php-css UL.article-list H5 { margin: 0 0 0 22px; }
+.php-css UL.article-list H6 { margin: 0 0 0 22px; }
+.php-css UL.article-list LI { margin: 0 0 0 30px; }
+.php-css UL.article-list .de-emphasized { font-size: 10px; }
+.php-css UL.article-list { list-style-type: none; padding: 0px; }
+.php-css UL.article-list UL { list-style-type: none; padding-left: 20px; }
+.php-css .back-indent DIV { margin-left: 20px; text-indent: -20px; }
+.php-css .back-indent DIV SPAN:hover { background-color: #ffa; }
+.php-css .spoiler { color: black; background-color: black; }
+.php-css .spoiler .spoiler-header { color: white; }
+.php-css .spoiler-hover { color: black; background-color: transparent; }
+.php-css .spoiler-hover .spoiler-header { cursor: help; }
+.php-css .row1 .spoiler-hover .spoiler-header { color: #C0C0C0; }
+.php-css .row2 .spoiler-hover .spoiler-header { color: #DEE3E7; }
+.php-css TD.quote .spoiler-hover .spoiler-header { color: white; }
+.php-css .notice { background: #efe; border: 1px solid #cfc; color: #090; font-weight: bold; margin-bottom: 7px; padding: 10px; }
+.php-css div.notice center { font-size: 16px; font-weight: bold; margin-top: 10px; }
+.php-css .notice a, .php-css .alert a { color: inherit; }
+.php-css .alert { background: #fee; border: 1px solid #fcc; color: #c00; font-weight: bold; margin-bottom: 7px; padding: 10px; }
+.php-css .endorse { color: green; }
+.php-css .discard { color: red; }
+.php-css .news .intro { font-style: italic; }
+.php-css .news HR { margin: 15px 5px; }
+.php-css .review H1, .php-css .review H2 { text-align: center; }
+.php-css .review .good-points { color: green; font-size: 150%; }
+.php-css .review .bad-points { color: red; font-size: 150%; }
+.php-css .review .more-info { text-align: center; }
+.php-css .review .floating-image { position: relative; top: -28px; }
+.php-css .review td p:first-child { margin-top: 0; }
+.php-css .review td p:last-child { margin-bottom: 0; }
+.php-css .my-anime-rating, .php-css .encyc-interactive { margin: 1em 0; background-color: #e0e8ff; padding: 5px; border: 1px solid #89c; border-width: 1px 3px; }
+.php-css .encyc-interactive h4 { margin-top: 0; }
+.php-css .encyc-interactive table td { text-align: center; padding: 2px 7px; }
+.php-css #social-bookmarks { white-space: nowrap; display: inline; }
+.php-css #social-bookmarks img { vertical-align: middle; }
+.php-css table.gallery { margin: 0 auto; }
+.php-css table.gallery td { width: 100px; height: 100px; text-align: center; }
+.php-css div.gallery_pic { text-align: center; }
+.php-css div.gallery_pic img { margin: 2px auto; border: 1px solid black; }
+.php-css FORM { margin: 0; }
+.php-css P, .php-css DIV.p { margin: 1em 0; }
+.php-css UL, .php-css OL { margin: 3px; padding: 0px; }
+.php-css LI { margin-left: 2em; list-style-position: outside; }
+.php-css FIELDSET FORM { display: inline; }
+.php-css TT { white-space: -moz-pre-wrap; }
+.php-css FIELDSET { margin: 0px 0px 8px 0px; padding: 6px 9px 6px 9px; border: 0px; background-color: #e4e4ff; border-radius: 5px; }
+.php-css FIELDSET H4 { margin: 0px 0px 10px 0px; font-size: 125%; }
+.php-css FIELDSET DIV.field { margin-top: 8px; }
+.php-css FIELDSET DIV.field > LABEL { font-weight: bold; }
+.php-css FIELDSET DIV.WithErrors > LABEL, .php-css FIELDSET DIV.WithErrors .err { color: red; }
+.php-css FIELDSET DIV.WithErrors > LABEL:before { content: url(/assets/752f54cd5426eb9f5b09a248f0989d070dbe38e8.gif); vertical-align: bottom; }
+.php-css FIELDSET DIV.WithErrors INPUT { background-color: yellow; }
+.php-css TEXTAREA.tt { font-family: monospace; }
+.php-css FIELDSET TD:first-child > DIV.field { white-space: nowrap; }
+.php-css .changelog TD, .php-css .changelog INPUT, .php-css .changelog SELECT { font-size: 11px; }
+.php-css FIELDSET DIV.field UL.suboptions { margin: 0; padding-left: 20px; }
+.php-css FIELDSET DIV.field UL.suboptions LI { list-style-type: none; }
+.php-css FIELDSET DIV.field UL.suboptions INPUT { display: inline !important; }
+.php-css FIELDSET DIV.field LABEL INPUT[type=text], .php-css FIELDSET DIV.field LABEL TEXTAREA { display: block; }
+.php-css INPUT[type=submit] { background-color: #d0d0d0; }
+.php-css FIELDSET P { margin: 8px 0px 8px 0px; }
+.php-css FIELDSET DFN { display: block; font-size: smaller; font-style: normal; line-height: 1.4em; }
+.php-css FIELDSET DFN.tip { display: inline; border-bottom: 1px dashed black; cursor: help; }
+.php-css FIELDSET DFN.tip:hover { text-decoration: none; border-bottom: 0px; }
+.php-css FIELDSET DFN.tip SPAN { display: none; }
+.php-css FIELDSET DFN.tip:hover SPAN { display: inline; }
+.php-css FIELDSET.wide { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; max-width: 800px; }
+.php-css FIELDSET TEXTAREA { width: 100%; }
+.php-css FIELDSET.wide INPUT[type=text], .php-css FIELDSET.wide INPUT[type=password] { width: 100%; }
+.php-css FIELDSET.login { width: 200px; }
+.php-css FIELDSET.login INPUT { width: 200px; }
+.php-css .dataField { margin-top: 8px; }
+.php-css .dataField LABEL { font-weight: bold; }
+.php-css .fieldWithErrors input, .php-css .fieldWithErrors select, .php-css .fieldWithErrors textarea { background-color: yellow; }
+.php-css table.searchresults td { padding: 1px 6px 1px 0px; }
+.php-css TABLE.bar-graph TD { border-bottom: 3px solid white; padding: 0px; }
+.php-css TABLE.bar-graph TD.graphheader DIV { background-color: #ddd; font-weight: bold; padding: 3px; margin: 5px 0px 2px 0px; }
+.php-css TABLE.bar-graph TD.graphbar SPAN { position: absolute; color: #99f; display: none; }
+.php-css TABLE.bar-graph TD.graphbar:hover SPAN { display: block; }
+.php-css TABLE.bar-graph TD.graphbar DIV { height: 18px; background-color: blue; }
+.php-css TABLE.bar-graph TD.graphlabel { background-color: #e0e0ff; padding: 0px 3px; }
+.php-css TABLE.bar-graph TD.graphnum { white-space: nowrap; padding: 0px 3px; text-align: right; }
+.php-css TABLE.layout { border-spacing: 0; }
+.php-css TABLE.layout TD { vertical-align: top; padding: 0; }
+.php-css TABLE.layout TD.rpadded { padding-right: 6px; }
+.php-css A.sort-order { text-decoration: none; }
+.php-css A.sort-order:visited { color: blue; }
+.php-css .legal-fine-print { border: 1px dotted black; padding: 3px; font-size: 10px; line-height: 1.2em; color: #333; }
+.php-css DIV.ajaxedit:hover { background-color: #ff8; cursor: pointer; }
+.php-css .worddiff del { color: red; }
+.php-css .worddiff ins { color: green; }
+.php-css table.prices { border: 0; margin-bottom: 10px; }
+.php-css table.prices td { padding: 5px 5px 0px 5px; vertical-align: top; }
+.php-css table.prices td.s { white-space: nowrap; }
+.php-css table.prices td.p { white-space: nowrap; text-align: right; width: 1px; }
+.php-css #pleasewait { text-align: center; margin: 0 50px; color: #777; padding: 8px; border: 2px dashed #777; cursor: wait; }
+.php-css #addurllink { text-align: center; }
+.php-css #price-comp-basket { border: 1px solid blue; color: blue; padding: 5px; text-align: center; }
+.php-css #price-comp-basket dfn { display: block; margin-bottom: 3px; }
+.php-css #price-comp-basket a { font-weight: bold; }
+.php-css #price-comp-basket strong { font-size: 130%; display: block; }
+.php-css A.HOVERLINE:link { text-decoration: none; }
+.php-css A.HOVERLINE:visited { text-decoration: none; }
+.php-css A.HOVERLINE:hover { text-decoration: underline; }
+.php-css .SMALLFORM { font-size: xx-small; font-family: Ms Sans Serif, Arial; }
+.php-css .STAFF, .php-css .STAFF A { color: #FF8000 !important; }
+.php-css .ESTAFF, .php-css .ESTAFF A { color: #00A0A0 !important; }
+.php-css .ENTAB { margin-top: 0px; margin-bottom: 0px; margin-left: 20px; text-indent: -20px; }
+.php-css TD.BGRAL { background-position: right; }
+.php-css A.ENCYCHIDDEN { color: black; text-decoration: none; }
+.php-css A.ENCYCHIDDEN:hover { color: #009000; text-decoration: underline; }
+.php-css A.OUT { color: #9B01DB; text-decoration: none; font-weight: bold; }
+.php-css A.IN { color: #008CDC; text-decoration: none; font-weight: bold; }
+.php-css .release-ean span + span:before { content: "-"; }
+.php-css .RED { color: RED !important; }
+.php-css .upcoming-date { background-color: #bbbbff; color: black; }
+.php-css .current-date { background-color: #bbffbb; color: black; }
+.php-css .impression-limit { font-size: 60%; }
+.php-css .back-indent LI { margin-left: 20px; list-style-position: outside; }
+.php-css SPAN.input-format-label { position: absolute; font-size: smaller; margin-top: 2em; }
+.php-css .encyc-info-type DIV.tab, .php-css .encyc-info-type P.tab { text-indent: 20px; }
+.php-css .encyc-info-type.br { margin-top: 16px; }
+.php-css .encyc-info-type .fright TABLE CAPTION { caption-side: bottom; border: 1px solid black; margin-top: -1px; font-family: Arial, sans-serif; font-size: 10px; line-height: 100%; text-align: left; }
+.php-css .encyc-info-type .fright TABLE CAPTION P { margin: 3px 0px 3px 1px; }
+.php-css .encyc-info-type.articles .show-more { display: none; background: #eee; position: absolute; padding: 1px; margin-left: 5px; color: #777; }
+.php-css .encyc-info-type.articles .show-more input { margin: 0; vertical-align: middle; }
+.php-css .encyc-info-type.articles:hover .show-more { display: inline; }
+.php-css .encyc-info-type.articles .limit-height { max-height: 400px; overflow: auto; }
+.php-css .encyc-info-type.articles .S1, .php-css .encyc-info-type.articles .S1 a { color: #4f607c; }
+.php-css .encyc-info-type.articles .S2, .php-css .encyc-info-type.articles .S2 a { color: #777; }
+.php-css .encyc-info-type.articles.S0-show .S1.show { display: none; }
+.php-css .encyc-info-type.articles.S0-hide .S0.hide, .php-css .encyc-info-type.articles.S1-hide .S0.hide, .php-css .encyc-info-type.articles.S1-hide .S1.hide, .php-css .encyc-info-type.articles.S2-hide .S0.hide, .php-css .encyc-info-type.articles.S2-hide .S1.hide, .php-css .encyc-info-type.articles.S2-hide .S2.hide { display: block; }
+.php-css #infotype-33 { display: table; margin: 0 auto; }
+.php-css #infotype-33 DIV.tab { text-indent: 0px; float: left; padding: 3px; }
+.php-css .hover-box span { position: absolute; z-index: 1; }
+.php-css .hover-box span div { display: none; margin: 0 1px; }
+.php-css .hover-box:hover span div { display: block; }
+.php-css .hover-box span div { text-indent: 0; background-color: white; border: 1px solid black; padding: 0 2px; max-width: 200px; }
+.php-css .encyc-op { padding-left: 4px; text-indent: 0px; }
+.php-css .encyc-op A { color: #777777; padding: 0px 3px; border-style: solid; border-width: 0 1px 0 0; }
+.php-css .encyc-op.ESTAFF, .php-css .encyc-op.ESTAFF A { color: #00A0A0; }
+.php-css .encyc-op .own { color: #777 !important; }
+.php-css .encyc-op IMG { padding: 3px; vertical-align: baseline; margin-bottom: -4px; }
+.php-css .encyc-op .p { display: inline; border: 0px; font-family: serif; margin-left: -1px; position: absolute; }
+.php-css .encyc-op.no-overlay .p { position: static; }
+.php-css .encyc-op .o { display: none; background-color: #fff; color: #777777; position: absolute; z-index: 1; }
+.php-css .encyc-op.no-overlay .o { position: static; }
+.php-css .encyc-op.hvr .p { display: none; }
+.php-css .encyc-op.hvr .o { display: inline; padding: 4px 0px; z-index: 2; margin: -4px 0px; }
+.php-css .encyc-op.hvr .o A { border-width: 1px 1px 1px 0px; padding: 4px 3px; }
+.php-css .encyc-op.pin .p { display: none; }
+.php-css .encyc-op.pin .o { display: inline; }
+.php-css .encyc-op.show-source a.src { color: #4a0; background-color: #ffb; }
+.php-css .encyc-op.show-source span.src a { color: #4a0; background-color: #ffb; padding: 0; border-width: 0; text-decoration: none; }
+.php-css .encyc-op.show-source span.src a:hover { text-decoration: underline; }
+.php-css .encyc-op span.src { display: none; position: absolute; z-index: 2; margin: -4px 0 0 -1px; white-space: normal; }
+.php-css .encyc-op.show-source span.src { display: inline; }
+.php-css .encyc-op span.src table { border-collapse: collapse; }
+.php-css .encyc-op span.src table td { padding: 3px; color: #4a0; border: 1px solid #4a0; background-color: #ffb; }
+.php-css .highlight-btn .off { display: inline; }
+.php-css .highlight-btn .on { display: none; }
+.php-css .highlight-btn:hover .off { display: none; }
+.php-css .highlight-btn:hover .on { display: inline; }
+.php-css table.encyc-ratings td.l { width: 50px; }
+.php-css table.encyc-ratings td.t { min-width: 350px; }
+.php-css table.encyc-ratings td.r { width: 100px; text-align: right; }
+.php-css table.upcoming-anime th { background-color: #ddf; }
+.php-css table.upcoming-anime td { padding: 3px; border-bottom: 1px solid #999; }
+.php-css table.upcoming-anime a.ENCYC { font-size: 16px; line-height: 140%; }
