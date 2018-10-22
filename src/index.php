@@ -61,7 +61,7 @@ $episode = new Episode();
 <!-- CSS IMPORTS -->
     <link type="text/css" rel="stylesheet" href="./compressed.css" />
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <style>
 
      @font-face {
@@ -79,6 +79,9 @@ $episode = new Episode();
 
 }
 
+#hack_mobile{
+    display:none;
+}
 
 #hack_mobile .txt {
     font-size:1.3rem;
@@ -109,6 +112,43 @@ body{
 .new{
     
 }
+
+
+
+
+.navBtn.open span:nth-child(1) {
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.navBtn.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.navBtn.open span:nth-child(3) {
+  top: 10px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+h1,h2,h3,h4,header{
+    font-family: 'Crimson Text', serif;
+}
+
+#hack_mobile .txt{
+    font-family: 'Crimson Text', serif;
+    font-size:2rem;
+    /* border:1px red solid; */
+    font-weight:800;
+    width:200%;
+}
+
     </style>
 
     <!--[if lt IE 9]>
@@ -123,7 +163,7 @@ body{
             <nav>
                 <div class="navArea">
                     <div class="navBtnWrap">
-                        <a class="navBtn" href="javascript:void(0)">
+                        <a id="navBtn" class="navBtn" href="javascript:void(0)">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -205,7 +245,7 @@ body{
                             </a>
                         </li>
                         <li class="comicAnime">
-                            <a class="comicAnime f11" href="./movies.php">
+                            <a class="comicAnime f11" href="./episode.php?id=1">
                                 <p class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
 
@@ -223,7 +263,7 @@ body{
     </g>
 </svg>
                                 </p>
-                                <p class="txt">MOVIES</p>
+                                <p class="txt">FIRST EPISODE</p>
                             </a>
                         </li>
                        
@@ -309,9 +349,9 @@ body{
             </g>
         </g>
     </g>
-</svg></p><p class="txt">Last episode</p></a>            </li>
+</svg></p><p class="txt">LAST EPISODE</p></a>            </li>
             <li class="product active">
-                <a class="item f11" href="./movies.php"><p class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+                <a class="item f11" href="./episode.php?id=1"><p class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
 
     <title>Watch One piece anime streaming English episodes online Movies Page</title>
     <desc>Watch One piece anime streaming English episodes online Movies Page</desc>
@@ -325,7 +365,7 @@ body{
             </g>
         </g>
     </g>
-</svg></p><p class="txt">MOVIES</p></a>            </li>
+</svg></p><p class="txt">FIRST EPISODE</p></a>            </li>
             <li class="special active">
                 <a class="special f11" href="./about.php"><p class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
 
@@ -458,7 +498,7 @@ body{
         
            
 
-            <div class="bgGray border" style="background: url(./images/back.jpg) no-repeat center center; background-size:100% 100%;" >
+            <div class="bgGray border" style="background: url(./images/banner_crew.jpg) no-repeat center center; background-size:100% 100%;" >
                 <div class="cw" style=" height:200px; ">
                     <section id="recommend"  class="section">
 
@@ -499,23 +539,28 @@ body{
 
 
 let x = $('.navBtn').html();
-$('.navBtn').html("x");
+// $('.navBtn').html("x");
+// $('.navBtn').addClass("open");
 
 $('.navBtn').on('click' , ()=>{
-    $('#hack_mobile').toggle();
 
-let visible = $("#hack_mobile").is(":visible");
 
-if (visible){
-    $('.navBtn').html("X");
+     let visible = $("#hack_mobile").is(":visible");
+
+if (!visible){
+    // $('.navBtn').html("X");
+    $('.navBtn').addClass("open");
 }else{
 
-    $('.navBtn').html(x);
+    // $('.navBtn').html(x);
+    $('.navBtn').removeClass("open");
 }
 
-    
-    
-  
+    $('#hack_mobile').slideToggle(500 , 'linear' , function(){
+       
+    });
+
+
 })
 
  </script>
@@ -533,6 +578,13 @@ var addthis_config = addthis_config||{};
     addthis_config.data_track_addressbar = false;
     addthis_config.data_track_clickback = false;
 </script>
+
+   
+   <script type="text/javascript">
+    var wid = '451762';
+    var uid = '215523';
+</script>
+<script type="text/javascript" src="//cdn.popcash.net/pop.js"></script>
 </body>
 
 </html>

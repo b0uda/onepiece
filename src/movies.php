@@ -201,7 +201,7 @@ $episode -> loadEpisode($_GET['id']);
                             </a>
                         </li>
                         <li class="comicAnime">
-                            <a class="comicAnime f11" href="./movies.php">
+                            <a class="comicAnime f11" href="./episode.php?id=1">
                                 <p class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
 
@@ -219,7 +219,7 @@ $episode -> loadEpisode($_GET['id']);
     </g>
 </svg>
                                 </p>
-                                <p class="txt">MOVIES</p>
+                                <p class="txt">FIRST EPISODE</p>
                             </a>
                         </li>
                        
@@ -303,7 +303,7 @@ $episode -> loadEpisode($_GET['id']);
     </g>
 </svg></p><p class="txt">Last episode</p></a>            </li>
             <li class="product active">
-                <a class="item f11" href="./movies.php"><p class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+                <a class="item f11" href="./episode.php?id=1"><p class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
 
     <title>Watch One piece anime streaming English episodes online Movies Page</title>
     <desc>Watch One piece anime streaming English episodes online Movies Page</desc>
@@ -317,7 +317,7 @@ $episode -> loadEpisode($_GET['id']);
             </g>
         </g>
     </g>
-</svg></p><p class="txt">MOVIES</p></a>            </li>
+</svg></p><p class="txt">FIRST EPISODE</p></a>            </li>
             <li class="special active">
                 <a class="special f11" href="./about.php"><p class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
 

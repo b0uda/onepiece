@@ -56,7 +56,7 @@ $episode -> loadEpisode($_GET['id']);
     <link rel="icon" href="./favicon.png">
     <link rel="icon" sizes="16x16" href="./favicon16x16.png">
     <link rel="icon" sizes="32x32" href="./favicon32x32.png">
-    <title>Watch One piece anime streaming – English episodes online | onepiecestreams</title>
+    <title>Watch One piece episode anime streaming – English episodes online for free | onepiecestreams</title>
     <meta name="description" content="Watch One piece anime episodes english streaming – one piece English Subbed & Dubbed online | onepiecestreams">
     
    
@@ -64,7 +64,7 @@ $episode -> loadEpisode($_GET['id']);
 <!-- CSS IMPORTS -->
     <link type="text/css" rel="stylesheet" href="./compressed.css" />
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <style rel="stylesheet">
 
 
@@ -85,6 +85,7 @@ $episode -> loadEpisode($_GET['id']);
        max-width:none;
     }
 
+   
      .video_title{
             text-align: center;
             color:gray;
@@ -93,6 +94,7 @@ $episode -> loadEpisode($_GET['id']);
         }
 
 }
+
 
 
 @media screen and (max-width: 640px) {
@@ -106,8 +108,17 @@ $episode -> loadEpisode($_GET['id']);
             
         }
 
+        
+
 }
 
+@media screen and (min-width: 500px) {
+
+.mobile_msg{
+       display:none;
+   }
+
+}
 
 iframe{
     margin-top:7px;
@@ -142,7 +153,9 @@ body{
             display:none;
         }
 
-
+#hack_mobile{
+    display:none;
+}
 
 #hack_mobile .txt {
     font-size:1.3rem;
@@ -151,7 +164,196 @@ body{
     }
 
 
+    /* report model */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 8% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+
+.modal-content h3{
+    font-size:4rem;
+    color: #d9312b;
+    text-align:center;
+margin-bottom:2%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+    /* report form */
+
+input[type=text] , input[type=email] , select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #d9312b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align:center;
+
+}
+
+input[type=submit]:hover {
+    background-color: #d9312b;
+}
+
+.report-container {
+    border-radius: 5px;
+width:60%;
+margin:auto;
+    /* padding: 20px; */
+}
+.g-recaptcha{
+    margin-bottom:5%;
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+
+iframe{
+    height:250px;
+}    
+
+.mp4upload{
+    height:400px;
+}
+
+.modal {
+    margin-top:10%;
+}
+
+.modal h3{
+font-size:2.6rem;
+}
+
+
+.modal-content {
+    
+    width: 90%; /* Could be more or less, depending on screen size */
+    padding: 10px;
+}
+
+.report-container {
+
+width:100%;
+
+
+}
+
+}
+
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+
+
+
+
+.navBtn.open span:nth-child(1) {
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.navBtn.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.navBtn.open span:nth-child(3) {
+  top: 10px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+
+h1,h2,h3,h4,header{
+    font-family: 'Crimson Text', serif;
+}
+
+#hack_mobile .txt{
+    font-family: 'Crimson Text', serif;
+    font-size:2rem;
+    /* border:1px red solid; */
+    font-weight:800;
+    width:200%;
+}
+
     </style>
+
+
 
 
 
@@ -254,7 +456,7 @@ body{
                             </a>
                         </li>
                         <li class="comicAnime">
-                            <a class="comicAnime f11" href="./movies.php">
+                            <a class="comicAnime f11" href="./episode.php?id=1">
                                 <p class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
 
@@ -272,7 +474,7 @@ body{
     </g>
 </svg>
                                 </p>
-                                <p class="txt">MOVIES</p>
+                                <p class="txt">FIRST EPISODE</p>
                             </a>
                         </li>
                        
@@ -355,9 +557,9 @@ body{
             </g>
         </g>
     </g>
-</svg></p><p class="txt">Last episode</p></a>            </li>
+</svg></p><p class="txt">LAST EPISODE</p></a>            </li>
             <li class="product active">
-                <a class="item f11" href="./movies.php"><p class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+                <a class="item f11" href="./episode.php?id=1"><p class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
 
     <title>Watch One piece anime streaming English episodes online Movies Page</title>
     <desc>Watch One piece anime streaming English episodes online Movies Page</desc>
@@ -371,7 +573,7 @@ body{
             </g>
         </g>
     </g>
-</svg></p><p class="txt">MOVIES</p></a>            </li>
+</svg></p><p class="txt">FIRST EPISODE</p></a>            </li>
             <li class="special active">
                 <a class="special f11" href="./about.php"><p class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
 
@@ -404,7 +606,7 @@ body{
         <main id="top">
             <div class="bgMap">
 
-
+        <img src="./images/crew.jpg" alt="one piece share image" style="display:none;">
 
 
                 <div class="cw video_container">
@@ -413,13 +615,26 @@ body{
 
 
                  <h1 class="video_title"><?php print  $episode -> getEpisode() . ' ' .  $episode -> getName();  ?> </h1>
-               
+                 <div class="report-link" style="text-align:center;">
+                 <p style="display:inline-block; color:#d9312b;">PLEASE REPORT TO US IF YOU FIND A PROBLEM WITH EPISODE THANK YOU</p> <button style="display:inline-block; margin:auto;" class="previous-btn f11 btn red more" id="myBtn">REPORT EPISODE</button> 
 
+                 </div>
+                
                  <!-- <iframe class="video_rutube" src="//iframe-secure.com/embed/ibupi6oz" frameborder="0" scrolling="no" width="640" height="360" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>     -->
                  
+                 
+
+                 <?php  if ($episode -> getEng_sub() != "xxx" && $episode -> getEng_sub() && strpos($episode -> getEng_sub() , 'mp4upload')  == true ){  ?> 
+                    
+                    <span class="link_helper" >Link 1</span>
+                    
+                  
+                    <iframe name="player" sandbox="allow-scripts allow-same-origin" class="mp4upload" scrolling="no" height="500" id="player" src="<?php print $episode -> getEng_sub(); ?>" frameborder="0" width="100%" height="100%" allowfullscreen=""></iframe>
+                    <div class="mobile_msg">Mobile Users go full screen or close ads to play the video</div>
+            
 
                
-                   <?php  if ($episode -> getEng_sub() != "xxx" && $episode -> getEng_sub() && strpos($episode -> getEng_sub() , 'dailymotion')  == false ){  ?> 
+                 <?php } else if ($episode -> getEng_sub() != "xxx" && $episode -> getEng_sub() && strpos($episode -> getEng_sub() , 'dailymotion')  == false ){  ?> 
                     
                     <span class="link_helper" >Link 1</span>
 
@@ -434,7 +649,16 @@ body{
             
 <?php } ?>
 
-                    <?php  if ($episode -> getEng_sub2() != "xxx" && $episode -> getEng_sub2() && strpos($episode -> getEng_sub2() , 'dailymotion') == false ){  ?> 
+
+   <?php  if ($episode -> getEng_sub2() != "xxx" && $episode -> getEng_sub2() && strpos($episode -> getEng_sub2() , 'mp4upload') == true ){  ?> 
+            
+            <span class="link_helper" >Link 2</span>
+            
+<iframe name="player2" class="mp4upload" sandbox="allow-scripts" scrolling="no" height="500" id="player2" src="<?php print $episode -> getEng_sub2(); ?>" frameborder="0" width="100%" height="100%" allowfullscreen=""></iframe>
+<div class="mobile_msg">Mobile Users go full screen or close ads to play the video</div>
+           
+
+                    <?php } else  if ($episode -> getEng_sub2() != "xxx" && $episode -> getEng_sub2() && strpos($episode -> getEng_sub2() , 'dailymotion') == false ){  ?> 
             
                         <span class="link_helper" >Link 2</span>
 
@@ -453,17 +677,18 @@ body{
 
 
 
+
 <p id="btn-container" style="margin-top:15px; text-align:center;">
 
-<?php if ($episode-> getEpisode() != 196) { ?>
+<?php if ($episode-> getEpisode() != 1) { ?>
 
-<a class="previous-btn f11 btn large red more" href="./episode.php?id=<?php print $episode-> getEpisode() - 1 ?>">PREVIOUS</a>
+<a class="previous-btn f11 btn large red more" href="./episode.php?id=<?php print $episode-> getEpisode() - 1 ?>">EPISODE <?php print $episode-> getEpisode() - 1 ?></a>
 
     <?php } ?>                 
 
-<?php if ($episode-> getEpisode() != 856) { ?>
+<?php if ($episode-> getEpisode() != 858) { ?>
 
- <a class="next-btn f11 btn large red more" href="./episode.php?id=<?php print $episode-> getEpisode() + 1 ?>">NEXT</a>
+ <a class="next-btn f11 btn large red more" href="./episode.php?id=<?php print $episode-> getEpisode() + 1 ?>">EPISODE <?php print $episode-> getEpisode() + 1 ?></a>
 
 
 
@@ -471,6 +696,8 @@ body{
 
                     
 </p>
+
+
                                
 
 
@@ -533,7 +760,7 @@ body{
 
 
 
-               <div class="bgGray border" style="background: url(./images/back.jpg) no-repeat center center; background-size:100% 100%;" >
+               <div class="bgGray border" style="background: url(./images/banner_crew.jpg) no-repeat center center; background-size:100% 100%;" >
                 <div class="cw" style=" height:200px; ">
                     <section id="recommend"  class="section">
 
@@ -557,6 +784,41 @@ body{
         </div>
     </footer>
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>REPORT MISSING EPISODE</h3>
+
+<div class="report-container">
+  <form id="report-form" >
+    <label for="fname">Email</label>
+    <input required type="email" id="fname" name="firstname" placeholder="Your email..">
+
+
+
+    <label for="subject">Message</label>
+    <textarea required id="subject" name="subject" placeholder="Write something.." ></textarea>
+
+
+<div class="g-recaptcha" data-sitekey="6LdNmnQUAAAAAPbkxMoP8kV9w81X220rXOK4PBLk"></div>
+
+    <input type="submit" value="REPORT">
+
+  </form>
+</div>
+
+  </div>
+
+</div>
+
+<!-- <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  This is an alert box.
+</div> -->
+
    
 <script type="text/javascript">
 var cssLink = document.createElement("link");
@@ -575,23 +837,92 @@ frames['player2'].document.head.appendChild(cssLink);
 <script type="text/javascript">
 
 
+// report model
+// Get the modal
+var modal = document.getElementById('myModal');
+var jquery_modal = $("#myModal");
+
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+var jquery_btn = $("#myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+var jquery_span = $(".close");
+
+
+jquery_btn.on("click" , function(){
+
+    $("#myModal").show(500);
+});
+
+jquery_span.on("click" , function(){
+    $("#myModal").hide(500);
+
+});
+
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        // modal.style.display = "none";
+        $("#myModal").hide(500);
+    }
+}
+
+
+$('#report-form').on('submit' , function(e){
+    e.preventDefault(); // Cancel the submit
+    let email = $("#fname").val();
+    let message = $("#subject").val();
+    let episode = $("#subject").val();
+
+$.ajax({
+  type: "POST",
+  url: "./report.php",
+  data: { email: email , message: message , episode:  <?php print $episode -> getEpisode()  ?>},
+  success: function(res){
+    //   alert(res);
+  },
+  error: function(err){
+    //   alert(err);
+  },
+
+});
+    
+$("#myModal").fadeOut(500);
+
+})
+
+     
+
 
 
 let x = $('.navBtn').html();
-$('.navBtn').html("x");
+// $('.navBtn').html("x");
+// $('.navBtn').addClass("open");
 
 $('.navBtn').on('click' , ()=>{
-    $('#hack_mobile').toggle();
 
-let visible = $("#hack_mobile").is(":visible");
 
-if (visible){
-    $('.navBtn').html("X");
+     let visible = $("#hack_mobile").is(":visible");
+
+if (!visible){
+    // $('.navBtn').html("X");
+    $('.navBtn').addClass("open");
 }else{
 
-    $('.navBtn').html(x);
+    // $('.navBtn').html(x);
+    $('.navBtn').removeClass("open");
 }
-  
+
+    $('#hack_mobile').slideToggle(500 , 'linear' , function(){
+       
+    });
+
+
 })
 
 
@@ -612,6 +943,13 @@ var addthis_config = addthis_config||{};
     addthis_config.data_track_addressbar = false;
     addthis_config.data_track_clickback = false;
 </script>
+
+<script type="text/javascript">
+    var wid = '451762';
+    var uid = '215523';
+</script>
+<script type="text/javascript" src="//cdn.popcash.net/pop.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 
 </html>

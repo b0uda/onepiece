@@ -144,7 +144,7 @@ class Episode
         {
 
             // if ($data['arc'] == '43Silver Mine Arc (HS)') {
-            if ($data['arc'] == '19Skypiea Arc') {
+            if ($data['arc'] == 'xxx') {
                return;
             }
 
